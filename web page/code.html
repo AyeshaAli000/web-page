@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar{
+        background-color: rgb(250, 250, 250);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .logo{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .nav-links{
+        list-style: none;
+        display: flex;
+        letter-spacing: normal;
+        overflow: hidden;
+        
+
+    }
+    .nav-links li{
+        margin-right: 20px;
+    }
+    .nav-links a{
+        text-decoration: none;
+        color: rgb(17, 13, 13);
+        font-size: 18px;
+    }
+    .nav-links a:hover{
+        background-color: yellow;
+    }
+    .image-container{
+        width: 100%;
+        padding-bottom: 56.25%;
+        position: relative;
+    }
+    .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .image-container .image{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .form{
+        background-color: white;
+        margin: 0px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 12px;
+    }
+    .form button{
+        background-color: red;
+        border-radius: 8px;
+        outline: none;
+        cursor: pointer;
+        outline: transparent;
+        border: none;
+        font-size: 16px;
+    }
+    h1{
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        margin: 5px;
+        padding: 0;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+        color: green;
+        font-size: 16px;
+    }
+    .para{
+        /* padding: 0; */
+        /* margin: 0; */
+        text-align: justify; 
+        /* width: 300%; */
+        
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin: 20px;
+        padding: 50px;
+        padding: 1rem;
+        box-sizing: border-box;
+        margin: 10px;
+    }
+    .moso{
+        justify-content: flex;
+        text-align: justify;
+        /* position: absolute; */
+        padding: 0;
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+    .moso img{
+        /* padding: 10px; */
+        margin: 50px;
+        /* justify-content: ; */
+        width: 30%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .pic{
+        background-image: url(empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.jpg);
+        display: flex;
+        background-size: cover;
+        /* background-position: center; */
+        /* justify-content: flex-end; */
+        align-items: center;
+        height: 100vh;
+    }
+    .box{
+        width: 30%;
+        height: 40%;
+        background-color: aliceblue;
+       
+        padding: 20px;
+        margin-left: 150px;
+        border-radius: 8px;
+    }
+    .box h1,p{
+        text-align: center;
+   
+        font-weight: bold;
+    }
+</style>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span style="color: yellow;">MOSO</span>
+            <span style="color: red;">INTER</span><span style="color: green;">IOR</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="image-container">
+        <img src="wood-sideboard-living-room-interior-with-copy-space.jpg" alt="an image" class="image">
+        <div class="text">
+            <p>Welcome to Moso Interior</p>
+            <h1>Decorate a beautiful </h1>
+                <h1>interior for your space</h1>
+            <div class="form">
+            <form >
+                <input type="text" placeholder="Product Living Room" >
+                <input type="text" placeholder="Price $500 to $990">
+                <button>Search</button>
+            </form>
+        </div>
+        </div>
+    </div>
+    <div class="moso">
+        <div class="para"> <p style="color: green;">Our Story</p>
+         <h1 style="color: black;">Introducing <span style="color: rgb(46, 45, 45);">Moso</span></h1>
+         <h3 style="color: rgb(46, 45, 45);">Since 1986, We crafted interior products for better spaces</h3>
+         <p style="color: rgb(46, 45, 45);">Moso Interior is a free Bootstrap 5 HTML CSS template for yoyr website. Tooplate is one of the best websites to download 100% free HTML Templates for web designers and developers around the world. Thank you for visiting.</p>
+ </div>    
+        <div class="img">
+         <img style="margin-top: 90px;" src="sharing-design-ideas-with-family.jpg" alt="image">
+         <img style="margin-top: 90px;" src="living-room-interior-wall-mockup-warm-tones-with-leather-sofa-which-is-kitchen-3d-rendering.jpg" alt="image">
+        </div>
+     
+     </div>
+
+     <div class="pic">
+        <div class="box">
+            <table>
+                <tr><pre>     </pre></tr>
+                <tr><pre>    </pre></tr>
+            <tr><h1 style="color: black;">Opening Hours</h1></tr>
+            <tr><pre>    </pre></tr>
+            <p style="color: black;">Mon - Friday _ 8:00 AM - 6:00 PM</p>
+            <p style="color: black;">Saturday _ 10:00 AM - 10:00 PM</p>
+            <p style="color: black;">Sunday _ Closed</p>
+        </table>
+        </div>
+     </div>
+</body>
+</html>
